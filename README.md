@@ -8,24 +8,13 @@ A modern Flutter application for booking premium parking and car wash services w
 
 ## 📱 Screenshots
 
-### Home Dashboard
-![Home Screen](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/1_homePage.jpg)
-
-### Wallet Management
-![Wallet Screen](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/2_wallet_a.jpg)
-![Wallet Screen](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/2_wallet_b.jpg)
-![Transaction History](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/2_wallet_c.jpg)
-
-### Services & Booking
-![Services Screen](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_a.jpg)
-![Booking Dialog](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_b.jpg)
-![Transaction History](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_c.jpg)
-![Booking Details](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_d.jpg)
-![Booking Details](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_e.jpg)
-
-### Rewards Center
-![Rewards Screen](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/4_rewards_a.jpg)
-![Rewards Screen](https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/4_rewards_b.jpg)
+| Feature | Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|---------|-------------|-------------|-------------|
+| **Home Dashboard** | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/1_homePage.jpg" width="250" alt="Home Screen"> | | |
+| **Wallet Management** | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/2_wallet_a.jpg" width="250" alt="Wallet Screen"> | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/2_wallet_b.jpg" width="250" alt="Top Up"> | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/2_wallet_c.jpg" width="250" alt="Transaction History"> |
+| **Services & Booking** | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_a.jpg" width="250" alt="Services Screen"> | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_b.jpg" width="250" alt="Booking Dialog"> | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_c.jpg" width="250" alt="Payment Selection"> |
+| | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_d.jpg" width="250" alt="Booking Confirmation"> | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/3_services_e.jpg" width="250" alt="Booking Details"> | |
+| **Rewards Center** | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/4_rewards_a.jpg" width="250" alt="Rewards Screen"> | <img src="https://raw.githubusercontent.com/naufalmms/smart_booking/refs/heads/main/screenshot/4_rewards_b.jpg" width="250" alt="My Vouchers"> | |
 
 ---
 
