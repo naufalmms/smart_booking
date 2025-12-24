@@ -368,8 +368,6 @@ fvm flutter build ios --release
 ---
 
 ## 👨‍💻 Author
-
-**Your Name**
 - GitHub: [@naufalmms](https://github.com/naufalmms/)
 
 ---
