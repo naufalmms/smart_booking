@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:smart_booking_apps/features/wallet/viewmodel/wallet_viewmodel.dart';
 import 'package:smart_booking_apps/features/wallet/widgets/wallet_widgets.dart';
-// import 'package:smart_booking_apps/features/wallet/view/transaction_history_screen.dart';
+import 'package:smart_booking_apps/features/wallet/view/transaction_history_screen.dart';
 
 class WalletScreen extends StatefulWidget {
   const WalletScreen({super.key});
@@ -63,13 +63,13 @@ class _WalletScreenState extends State<WalletScreen> {
                           ),
                           ElevatedButton.icon(
                             onPressed: () {
-                              // Navigator.push(
-                              //   context,
-                              //   MaterialPageRoute(
-                              //     builder: (context) =>
-                              //         const TransactionHistoryScreen(),
-                              //   ),
-                              // );
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const TransactionHistoryScreen(),
+                                ),
+                              );
                             },
                             icon: const Icon(Icons.history, size: 16),
                             label: const Text('All Transactions'),
@@ -149,13 +149,13 @@ class _WalletScreenState extends State<WalletScreen> {
                           ),
                           TextButton(
                             onPressed: () {
-                              // Navigator.push(
-                              //   context,
-                              //   MaterialPageRoute(
-                              //     builder: (context) =>
-                              //         const TransactionHistoryScreen(),
-                              //   ),
-                              // );
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const TransactionHistoryScreen(),
+                                ),
+                              );
                             },
                             child: const Text('Filter'),
                           ),
