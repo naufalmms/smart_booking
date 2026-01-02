@@ -45,10 +45,14 @@ class BookingDetailDialog extends StatelessWidget {
                     vertical: 8,
                   ),
                   decoration: BoxDecoration(
-                    color: _getStatusColor(booking.status).withOpacity(0.1),
+                    color: _getStatusColor(
+                      booking.status,
+                    ).withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color: _getStatusColor(booking.status).withOpacity(0.2),
+                      color: _getStatusColor(
+                        booking.status,
+                      ).withValues(alpha: 0.2),
                     ),
                   ),
                   child: Row(
@@ -312,7 +316,7 @@ class BookingDetailDialog extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(10),
           decoration: BoxDecoration(
-            color: color.withOpacity(0.1),
+            color: color.withValues(alpha: 0.1),
             shape: BoxShape.circle,
           ),
           child: Icon(icon, color: color, size: 20),

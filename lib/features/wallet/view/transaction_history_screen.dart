@@ -237,7 +237,7 @@ class _TransactionHistoryScreenState extends State<TransactionHistoryScreen> {
         decoration: BoxDecoration(
           color: bgColor,
           borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: bgColor.withOpacity(0.5)),
+          border: Border.all(color: bgColor.withValues(alpha: 0.5)),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

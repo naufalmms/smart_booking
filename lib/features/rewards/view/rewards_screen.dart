@@ -59,7 +59,7 @@ class _RewardsScreenState extends State<RewardsScreen> {
                       Text(
                         'Claim exclusive offers and rewards',
                         style: TextStyle(
-                          color: Colors.white.withOpacity(0.8),
+                          color: Colors.white.withValues(alpha: 0.8),
                           fontSize: 14,
                         ),
                       ),

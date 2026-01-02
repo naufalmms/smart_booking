@@ -17,7 +17,7 @@ class WalletTabSelector extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.2),
+        color: Colors.white.withValues(alpha: 0.2),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Row(
@@ -82,13 +82,18 @@ class BalanceCard extends StatelessWidget {
       children: [
         Text(
           currency == 'RM' ? 'Available Balance' : 'Token Balance',
-          style: TextStyle(color: Colors.white.withOpacity(0.8), fontSize: 14),
+          style: TextStyle(
+            color: Colors.white.withValues(alpha: 0.8),
+            fontSize: 14,
+          ),
         ),
         const SizedBox(height: 8),
         Text(
           currency == 'RM'
               ? 'RM ${amount.toStringAsFixed(2)}'
-              : '${amount.toStringAsFixed(0).replaceAll(RegExp(r'\B(?=(\d{3})+(?!\d))'), ',')}',
+              : amount
+                    .toStringAsFixed(0)
+                    .replaceAll(RegExp(r'\B(?=(\d{3})+(?!\d))'), ','),
           style: const TextStyle(
             color: Colors.white,
             fontSize: 36,
@@ -102,7 +107,7 @@ class BalanceCard extends StatelessWidget {
             icon: const Icon(Icons.add, size: 18),
             label: const Text('Top Up Wallet'),
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.white.withOpacity(0.2),
+              backgroundColor: Colors.white.withValues(alpha: 0.2),
               foregroundColor: Colors.white,
               elevation: 0,
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
@@ -143,7 +148,7 @@ class WalletStatsCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.05),
+              color: Colors.black.withValues(alpha: 0.05),
               blurRadius: 10,
               offset: const Offset(0, 4),
             ),
@@ -301,13 +306,13 @@ class TransactionItem extends StatelessWidget {
   Color _getIconBg(String type) {
     switch (type) {
       case 'topup':
-        return Colors.green.withOpacity(0.1);
+        return Colors.green.withValues(alpha: 0.1);
       case 'payment':
-        return Colors.red.withOpacity(0.1);
+        return Colors.red.withValues(alpha: 0.1);
       case 'reward':
-        return Colors.orange.withOpacity(0.1);
+        return Colors.orange.withValues(alpha: 0.1);
       default:
-        return Colors.blue.withOpacity(0.1);
+        return Colors.blue.withValues(alpha: 0.1);
     }
   }
 }

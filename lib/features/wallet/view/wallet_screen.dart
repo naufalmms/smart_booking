@@ -74,7 +74,9 @@ class _WalletScreenState extends State<WalletScreen> {
                             icon: const Icon(Icons.history, size: 16),
                             label: const Text('All Transactions'),
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.white.withOpacity(0.2),
+                              backgroundColor: Colors.white.withValues(
+                                alpha: 0.2,
+                              ),
                               foregroundColor: Colors.white,
                               elevation: 0,
                               padding: const EdgeInsets.symmetric(
@@ -115,7 +117,7 @@ class _WalletScreenState extends State<WalletScreen> {
                             : '${viewModel.earnedAmount.toStringAsFixed(0)} GP',
                         icon: Icons.trending_up,
                         iconColor: Colors.green,
-                        iconBgColor: Colors.green.withOpacity(0.1),
+                        iconBgColor: Colors.green.withValues(alpha: 0.1),
                       ),
                       const SizedBox(width: 16),
                       WalletStatsCard(
@@ -125,7 +127,7 @@ class _WalletScreenState extends State<WalletScreen> {
                             : '${viewModel.spentAmount.toStringAsFixed(0)} GP',
                         icon: Icons.trending_down,
                         iconColor: Colors.red,
-                        iconBgColor: Colors.red.withOpacity(0.1),
+                        iconBgColor: Colors.red.withValues(alpha: 0.1),
                       ),
                     ],
                   ),

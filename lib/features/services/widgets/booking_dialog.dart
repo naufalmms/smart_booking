@@ -172,7 +172,7 @@ class _BookingDialogState extends State<BookingDialog> {
           const Text('Location', style: TextStyle(fontWeight: FontWeight.w500)),
           const SizedBox(height: 8),
           DropdownButtonFormField<String>(
-            value: _selectedLocation,
+            initialValue: _selectedLocation,
             decoration: InputDecoration(
               contentPadding: const EdgeInsets.symmetric(
                 horizontal: 12,
